@@ -1,0 +1,155 @@
+html, body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   background:black;
+   color: white;
+}
+
+a{
+   text-decoration: none;
+}
+nav{
+   background: black;
+   display: flex;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+   padding: 16px 32px;
+}
+
+nav img{
+width: 20px;
+}
+
+#logo{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+   color: black;
+}
+
+#logo img{
+   height: 56px;
+   width: 56px;
+}
+
+nav ul{
+   display: flex;
+   gap: 16px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.button-calendrier{
+   display: flex;
+   text-decoration: none;
+   color: white;
+   border-radius: 8px;
+   width: fit-content;
+   height: fit-content;
+   padding: 8px 16px;
+   border: 2px solid white;
+   background: black;
+}
+
+.button-calendrier a{
+   color: white;
+}
+
+.button-calendrier.primary{
+   background: black;
+   color: white;
+}
+
+
+
+header{
+   display: flex;
+   flex-direction: column;
+}
+
+.separateur{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.droite{
+   width: 50%;
+}
+.droite img{
+height: 100%;
+width: 78%;
+}
+
+
+main img{
+   width: 100px;
+}
+
+.cards-container{
+ display: flex;
+flex-wrap: wrap;
+padding: 35px;
+align-content: space-between;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.cards-container div{
+   width: 30vw;
+}
+
+.card-information{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+flex-wrap: wrap; 
+padding: 16px;
+gap: 8px;
+}
+
+.cards-container2{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+padding: 35px;
+align-content: space-between;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.card-information article{
+width: 30%;
+}
+
+.card-information article img{
+width: 100%;
+object-fit: cover;
+}
+
+.cards-container3{
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 8px;
+padding: 32px;
+border-radius: 16px;
+color: white;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.reseaux{
+display: flex;
+flex-direction: row;
+}
+
+.reseaux img{
+   display: flex;
+   width: 32px;
+   height: auto;
+}
