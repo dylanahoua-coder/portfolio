@@ -143,6 +143,12 @@ text-transform: uppercase;
 font-weight: 500;
 }
 
+.cards-container32{
+border-radius: 100%;
+}
+
+
+
 .reseaux{
 display: flex;
 flex-direction: row;
