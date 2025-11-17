@@ -6,6 +6,7 @@ body{
    align-items: center;
    gap: 56px;
    font-family: "Poppins", sans-serif;
+   background-image: url(https://i.pinimg.com/736x/ed/77/a2/ed77a2534d3696b54ac700a1aa141fbc.jpg);
 }
 
 h1, h2{
